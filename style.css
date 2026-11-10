@@ -221,3 +221,77 @@ h3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+.galleria-luoghi {
+  width: 100%;
+  max-width: 54rem;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.galleria-luoghi .swiper-slide {
+  margin: 0;
+}
+
+.galleria-luoghi img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.galleria-luoghi figcaption {
+  padding: 1rem;
+}
+
+.galleria-comandi {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem 1rem;
+}
+
+.galleria-comandi button {
+  position: static;
+  width: auto;
+  height: auto;
+  min-height: 2.75rem;
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--colore-primario-scuro);
+  border-radius: 0.4rem;
+  background: #ffffff;
+  color: var(--colore-primario-scuro);
+  font: inherit;
+  cursor: pointer;
+}
+
+.galleria-comandi .swiper-button-prev::after {
+  content: "← Precedente";
+  font-size: 1rem;
+}
+
+.galleria-comandi .swiper-button-next::after {
+  content: "Successiva →";
+  font-size: 1rem;
+}
+
+.galleria-comandi button:focus-visible {
+  outline: 3px solid var(--colore-testo);
+  outline-offset: 3px;
+}
+
+#mappa-sedi {
+  display: block;
+  width: 100%;
+  height: 28rem;
+  border: 0;
+  border-radius: 0.75rem;
+}
+
+@media (max-width: 375px) {
+  #mappa-sedi {
+    height: 22rem;
+  }
+}
