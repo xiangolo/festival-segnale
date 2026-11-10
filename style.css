@@ -268,12 +268,12 @@ h3 {
 }
 
 .galleria-comandi .swiper-button-prev::after {
-  content: "← Precedente";
+  content: "← Precedente ";
   font-size: 1rem;
 }
 
 .galleria-comandi .swiper-button-next::after {
-  content: "Successiva →";
+  content: " → Successiva";
   font-size: 1rem;
 }
 
