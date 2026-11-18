@@ -7,8 +7,8 @@
   --colore-primario-scuro: #151e63;
   --colore-sfondo: #e9f0f5;
   --colore-testo: #202923;
-  --font-testo: Verdana, Geneva, sans-serif;
-  --font-titoli: Arial, Helvetica, sans-serif;
+  --font-testo: "Overpass", sans-serif;
+  --font-titoli: "Ranchers", sans-serif;
 }
 
 * {
